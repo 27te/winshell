@@ -1,0 +1,20 @@
+{
+  "name": "solarized-dark",
+  "wezterm": {
+    "color_scheme": "Solarized Dark (Gogh)"
+  },
+  "starship": {
+    "palette": "solarized-dark",
+    "palette_colors": "blue = '#268bd2'\ngreen = '#859900'\nred = '#dc322f'\nyellow = '#b58900'\npurple = '#6c71c4'\ncyan = '#2aa198'\nwhite = '#839496'",
+    "prompt_color": "blue",
+    "dir_color": "cyan",
+    "branch_color": "purple",
+    "status_color": "red",
+    "node_color": "green",
+    "python_color": "yellow",
+    "go_color": "cyan"
+  },
+  "fzf": {
+    "opts": "--color=prompt:#268bd2,spinner:#6c71c4,pointer:#6c71c4,header:#2aa198 --color=label:#859900,query:#839496 --ansi --prompt=' ' --marker='→' --pointer='❯' --height=50% --layout=reverse-list --info=right --border=rounded --border-label='fzf' --border-label-pos=2 --preview-window=border-rounded --color=bg+:-1,border:#268bd2,hl:#2aa198,fg:#839496 --preview='bat --style=numbers,changes,header --color=always --paging=always {}' --preview-window=right:60%"
+  }
+}

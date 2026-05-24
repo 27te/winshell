@@ -1,0 +1,20 @@
+{
+  "name": "tokyo-night",
+  "wezterm": {
+    "color_scheme": "Tokyo Night"
+  },
+  "starship": {
+    "palette": "tokyo-night",
+    "palette_colors": "blue = '#7aa2f7'\ngreen = '#9ece6a'\nred = '#f7768e'\nyellow = '#e0af68'\npurple = '#bb9af7'\ncyan = '#7dcfff'\nwhite = '#c0caf5'",
+    "prompt_color": "blue",
+    "dir_color": "blue",
+    "branch_color": "purple",
+    "status_color": "red",
+    "node_color": "green",
+    "python_color": "yellow",
+    "go_color": "cyan"
+  },
+  "fzf": {
+    "opts": "--color=prompt:#7aa2f7,spinner:#bb9af7,pointer:#bb9af7,header:#7dcfff --color=label:#9ece6a,query:#c0caf5 --ansi --prompt=' ' --marker='→' --pointer='❯' --height=50% --layout=reverse-list --info=right --border=rounded --border-label='fzf' --border-label-pos=2 --preview-window=border-rounded --color=bg+:-1,border:#7aa2f7,hl:#7dcfff,fg:#c0caf5 --preview='bat --style=numbers,changes,header --color=always --paging=always {}' --preview-window=right:60%"
+  }
+}

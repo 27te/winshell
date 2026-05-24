@@ -1,0 +1,20 @@
+{
+  "name": "catppuccin-mocha",
+  "wezterm": {
+    "color_scheme": "Catppuccin Mocha"
+  },
+  "starship": {
+    "palette": "catppuccin-mocha",
+    "palette_colors": "blue = '#89b4fa'\ngreen = '#a6e3a1'\nred = '#f38ba8'\nyellow = '#f9e2af'\npurple = '#cba6f7'\ncyan = '#89dceb'\nwhite = '#cdd6f4'",
+    "prompt_color": "blue",
+    "dir_color": "blue",
+    "branch_color": "purple",
+    "status_color": "red",
+    "node_color": "green",
+    "python_color": "yellow",
+    "go_color": "cyan"
+  },
+  "fzf": {
+    "opts": "--color=prompt:#89b4fa,spinner:#cba6f7,pointer:#cba6f7,header:#89dceb --color=label:#a6e3a1,query:#cdd6f4 --ansi --prompt=' ' --marker='→' --pointer='❯' --height=50% --layout=reverse-list --info=right --border=rounded --border-label='fzf' --border-label-pos=2 --preview-window=border-rounded --color=bg+:-1,border:#89b4fa,hl:#89dceb,fg:#cdd6f4 --preview='bat --style=numbers,changes,header --color=always --paging=always {}' --preview-window=right:60%"
+  }
+}

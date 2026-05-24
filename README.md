@@ -34,11 +34,11 @@ Windows may flag the binary as suspicious because it's unsigned.
 To bypass: right-click `winshell.exe` → Properties → Unblock → OK.
 
 Or build from source (recommended):
-\```powershell
+```powershell
 git clone https://github.com/27te/winshell
 cd winshell
 go build -ldflags="-s -w" -o winshell.exe .
-\```
+```
 
 ## Usage
 
